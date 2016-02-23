@@ -1,0 +1,14 @@
+#btnpostdel{
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: .6em .8em;
+  background: #009afd;
+  border: 1px solid #1777b7;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset,0 1px 1px rgba(100,100,100,0.3);
+  border-radius: 3px;
+  position: absolute;
+  right: 45%;  
+  font-family: helvetica;
+}

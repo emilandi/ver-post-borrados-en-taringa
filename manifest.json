@@ -1,0 +1,26 @@
+{
+"manifest_version": 2,
+"name": "post eliminados en Taringa!",
+"description": "Ver los post eliminados de Taringa! usando el cache de google. by emilandi",
+"version": "1.0.1",
+"icons": {"16": "img/t128borra.png",        
+		      "19": "img/t128borra.png",		  
+		      "24": "img/t128borra.png",
+		      "32": "img/t128borra.png",
+          "38": "img/t128borra.png",
+          "48": "img/t128borra.png",
+		      "128": "img/t128borra.png"        
+},  
+   "browser_action": {
+        "default_icon": "img/t128borra.png",
+        "default_popup": "ver.html"            
+    },   
+
+   "content_scripts": [ {       
+      "include_globs": [ "http://*/*", "https://*/*" ],      
+      "js": [ "js/jquery-2.1.4.min.js","js/ver.js"],      
+      "matches": [ "http://*/*", "https://*/*" ],    
+      "css":["css/estilo1.css"]       
+   } ]
+	
+}

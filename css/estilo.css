@@ -1,0 +1,29 @@
+/*body {
+  background: #fdfcfb;
+  font-size: 50%;
+  font-family: 'PT Mono';  
+  color: #222;
+  margin:0;  
+}*/
+
+#opcion{
+ 
+  width: 150px;
+  height: 400px;
+}
+
+label{
+  background: #fdfcfb;
+  font-size: 1.2em;
+  font-family: 'PT Mono';  
+  color: #222;
+  margin:0;   
+}
+
+#ok{
+  position: relative;
+  left: 0;
+  margin-top:0; 
+  margin-left:0; 
+}
+
